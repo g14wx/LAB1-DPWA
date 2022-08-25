@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="LAB1-DPWA-FORK:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>LAB1-DPWA-FORK</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="lab1-DAMPW-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="LAB1-DPWA-FORK:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="jpa-descriptors" facet="LAB1-DPWA-FORK/jpa/JPA" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
