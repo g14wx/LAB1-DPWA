@@ -1,6 +1,6 @@
 <%@ page import="main.Pistas.GuessNumber" %>
-<%@ include file="common/header.jspf" %>
-<%@ include file="common/navigation.jspf;" %>
+<%@ include file="common/header.jsp" %>
+<%@ include file="common/navigation.jsp;" %>
 
 <body>
     <div class="container mt-4">
